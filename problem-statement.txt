@@ -32,3 +32,6 @@ throwing error.
     And the atm has the enough money that is requested.
     And the maximum amount we can withdraw in a day.
 And while performing these checks if there are checks that are not followed we will be throwing proper error.
+
+State transition diagram:
+https://excalidraw.com/#json=VEzlGaGv0Kvx5QapHJ8x0,a-Il-qyQCFEK0rjSXBP0pw
