@@ -1,0 +1,34 @@
+Design an ATM:
+
+1.Design an ATM machine that can handle various transactions like 
+    withdrawals, 
+    deposits, 
+    balance inquiries,
+    transfers.
+
+2.Consider security aspects, user authentication
+
+3.Different types of accounts (savings, checking, etc.).
+
+
+---------------------------------------------
+
+Requirments:
+1. The ATM should be able to perform only a single transaction at a time. We should be throwing error
+when some one is trying to make more than one transaction at a time.
+2. User should be able to insert a valid card and can perform operations like 
+    withdrawals 
+    balance inquiries (Limiting the number of operations to simulate interview)
+And if the entered card is not valid then we should be throwing respective error.
+3. And before performing each of the operations we will be asking the users the card PIN and we let the user's 
+type the PIN and if the PIN is valid we proceed to the next operation.
+  And we should have proper PIN validation logic for the respective card and how many times the 
+pin has been entered should be tracked in the server side.
+4. And also the user will be able to cancel the transaction from different states of the whole
+transaction and if the user is trying to cancel the transaction from a invalid state we should be 
+throwing error.
+5. And we need to have checks like before performing operations like before performing the withdraw operation
+    we should be able to check the card has the enough balance 
+    And the atm has the enough money that is requested.
+    And the maximum amount we can withdraw in a day.
+And while performing these checks if there are checks that are not followed we will be throwing proper error.
